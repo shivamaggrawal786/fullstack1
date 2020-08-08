@@ -1,0 +1,99 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+#container {
+    border:1vw solid white;
+    background-color: white;
+}
+#header {
+    background-color:lightgray;
+    border:2px solid #b0b0b0;
+    color:#fff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    margin-bottom: 16px;
+}
+#banner {
+    align-items: center;
+    background-color: aqua;
+    color:white;
+    display:flex;
+    justify-content: center;
+    height:100vh;
+    margin-bottom: 20px;
+}
+
+.heading {
+    margin-bottom:20px;
+}
+#team {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom:20px;
+}
+.team-member {
+    background-color: goldenrod;
+    border-radius: 50%;
+    height:20vw;
+    margin:0 2vw; 
+    width: 20vw;
+}
+#content::after {
+    clear: both;
+    content: '';
+    display: block;
+}
+#content {
+    color:white;
+    margin-bottom:20px;
+}
+#left-content {
+    align-items: center;
+    background-color: grey;
+    display:flex;
+    float: left;
+    height:79vh;
+    justify-content: center;
+    width:47.5vw;
+}
+#right-content {
+    float: right;
+    width: 48vw;
+    
+}
+.artical {
+    align-items:center;
+    background-color: orange;
+    display: flex;
+    height: 25vh;
+    justify-content: center;
+    width: 47.5vw;
+    margin-bottom: 2vh;
+}
+#card-deck{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom:20px;
+}
+.card {
+    background-color: orangered;
+    height: 30vw;
+    margin:0 2vw; 
+    width:20vw;
+}
+#footer {
+    background-color:grey;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
